@@ -1,0 +1,96 @@
+.container{
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: .3em 1.8em;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    height: 76px;
+}
+
+.nav h1{
+    align-self: center;
+}
+
+ul{
+    align-self: center;
+}
+
+ul a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 2em;
+    cursor: pointer;
+    background: radial-gradient(
+        ellipse at left bottom,
+        rgb(39,111,203),
+        rgb(77,201,201),
+        rgb(160,111,181)
+    );
+    padding: .4em .8em;
+    border-radius: 4px;
+}
+
+.car{
+    background-image: url('https://res.cloudinary.com/oyindacodes/image/upload/v1626092478/samples/glenn-carstens-peters-RLw-UC03Gwc-unsplash_adndsu.jpg');   
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.innerdiv{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 10em;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    display: flex;
+    color: #12546E;
+    align-self: center;
+}
+
+.heading h1{
+    align-self: center;
+    line-height: 1.1;
+    font-size: 35px;
+    margin-left: .6em;
+}
+
+.para{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #fff;
+    text-align: center;
+    margin-top: .7em;
+}
+
+@media(max-width:650px){
+    .innerdiv{
+        width: 90%;
+    }
+}
+
+@media(max-width:411px){
+    .heading h1{
+        font-size: 28px;
+    }
+
+    .para{
+        font-size: 16px;
+    }
+
+    .nav{
+        padding: .3em 1em;
+    }
+}

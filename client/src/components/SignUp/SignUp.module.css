@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+}
+
+.form{
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    background: #f5f6fd;
+    padding: 1em 2em;
+}
+
+.form h1{
+    align-self: center;
+    margin-bottom: 1em;
+}
+
+.form input[type="text"] , .form input[type="number"], .form input[type="password"]{
+    margin-bottom: 2em;
+    border: .5px solid rgba(94, 135, 168, 0.4);
+    height: 40px;
+    padding: 0 .5em;
+}
+
+.form input[type="text"]:focus , .form input[type="number"]:focus, .form input[type="password"]:focus{
+    outline: none;
+}
+
+.form input[type="submit"]{
+    height: 40px;
+    background: rgba(94, 135, 168, 0.9);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.span{
+    align-self: flex-end;
+    margin-top: 1em;
+}
+
+.span a{
+    text-decoration: none;
+}
